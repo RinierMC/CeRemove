@@ -18,6 +18,9 @@ use DaPigGuy\PiggyCustomEnchants\CustomEnchantManager;
 
 class CeRemove extends PluginCommand{
 
+/** @var Main $plugin */
+    protected $plugin;
+
     public function __construct(string $name, Main $plugin)
     {
         parent::__construct($name, $plugin);
