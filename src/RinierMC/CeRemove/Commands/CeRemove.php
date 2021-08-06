@@ -2,7 +2,7 @@
 
 namespace RinierMC\CeRemove\Commands;
 
-use RinierMC\CeRemove\Main;
+use RinierMC\CeRemove\Main.php;
 
 use pocketmine\Server;
 use pocketmine\Player;
