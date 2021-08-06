@@ -2,7 +2,7 @@
 
 namespace RinierMc\CeRemove;
 
-use RinierMC\CeRemove\Commands\CeRemove.php;
+use RinierMC\CeRemove\Commands\CeRemove;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
