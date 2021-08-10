@@ -17,9 +17,9 @@ class Main extends PluginBase {
         //PiggyCustomEnchant
 		$pce = $this->getServer()->getPluginManager()->getPlugin("PiggyCustomEnchants");
 		if ($pce instanceof PiggyCustomEnchants) {
-			$this->getServer()->getLogger()->notice("Load PureChat CustomEnchants!");
+			$this->getServer()->getLogger()->notice("Load CustomEnchants!");
 		} else {
-			$this->getServer()->getLogger()->warning("Error no Plugin CustomEnchants!");
+			$this->getServer()->getLogger()->warning("Error no plugin found, please install PiggyCustomEnchants!");
 		}	
 		
         //commands
